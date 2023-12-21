@@ -1,0 +1,51 @@
+/* src/components/Documento.css */
+
+/* Estilos generales para el contenedor del componente */
+.documento-detalle-container {
+    padding: 20px;
+    background-color: #f8f9fa; /* Fondo gris claro */
+  }
+  
+  /* Estilos para cada pregunta y respuesta detallada */
+  .pregunta-detallada {
+    margin-bottom: 30px; /* Espaciado entre bloques de preguntas */
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: transform 0.3s ease-in-out; /* Transición suave al pasar el mouse */
+  }
+  
+  /* Estilos para el título de la pregunta */
+  .pregunta-detallada h3 {
+    color: #007bff; /* Azul brillante */
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el contenido de la respuesta detallada */
+  .pregunta-detallada p {
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para la lista de detalles */
+  .pregunta-detallada ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Estilos para cada detalle en la lista */
+  .pregunta-detallada li {
+    margin-bottom: 5px;
+    color: #28a745; /* Verde */
+  }
+  
+  /* Aplica márgenes al final del contenido para separar del siguiente componente */
+  .documento-detalle-container > div:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  
+  /* Efecto de sombra al pasar el mouse */
+  .pregunta-detallada:hover {
+    transform: scale(1.02); /* Escala ligeramente al pasar el mouse */
+  }
+  
